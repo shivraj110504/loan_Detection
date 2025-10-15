@@ -1,0 +1,9 @@
+@echo off
+echo 🏦 Starting Loan Approval System...
+echo.
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo 🚀 Launching 3D Interactive Interface...
+streamlit run streamlit_app.py
+pause
